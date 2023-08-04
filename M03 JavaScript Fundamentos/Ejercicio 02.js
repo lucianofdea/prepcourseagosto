@@ -13,37 +13,42 @@ devolverString('Hola suy un string')
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
-   return x + y;
+   var sumados = x + y;
+   return sumados;
 }
-suma(5+4);
+suma(5,4);
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
-   return x - y;
+   var resto = x - y;
+   return resto;
 }
-resta(7-6);
+resta(7,6);
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
-   return x / y;
+   var division = x / y;
+   return division;
 }
-divide(10/2);
+divide(10,2);
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
-   return x * y;
+   var multiplicacion = x * y;
+   return multiplicacion;
 }
-multiplica(3*8);
+multiplica(3,8);
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
-   return x % y;
+   var resto = x % y;
+   return resto;
 }
-obtenerResto(-9%2);
+obtenerResto(10,2);
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
